@@ -1,0 +1,78 @@
+#container
+{
+width: 80%;
+height: 700px;
+margin: auto;
+}
+
+#menu1
+{background-color: grey;
+color: blanchedalmond;
+}
+
+.cabecera{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: grey;
+    color: aliceblue;
+    margin-block: ;
+}
+
+#menu11{
+    color: rgb(16, 236, 16);
+}
+
+#titulo1{
+    color: antiquewhite;
+    font-size: x-large;
+    text-decoration: none;
+}
+#titulo3{
+    font-size: xx-large;
+    font-variant-position: super;
+    font-variant: inherit;
+}
+
+.navbar-brand img{ width: 100px;}
+
+#boton-verde {color: #25a342}
+
+#brillo { filter: brightness(30%);}
+
+#letras3 { color: white; 
+position: absolute;}
+
+h1{ text-align: center;}
+
+h6{
+    text-align: center;
+}
+
+#honolulu {height: 300px;
+width: 600px;}
+
+h7 {text-justify:auto;
+background-color: grey;
+}
+
+.container-fluid { background-color: gray;
+display: flex;
+color: white;
+justify-content: right;}
+
+#formulario{ justify-content: center; 
+    width: 50%;
+}
+#botonenviar{ width: 100%; background-color: rgb(152, 204, 60);}
+
+#menu9 {height: 100px;
+background-color: rgb(2, 39, 54);
+justify-content: center;}
+
+.menu9 a { margin-left: 20px; margin-right: 20px; width: 20%;}
+
+#frase { font-weight: normal;}
+
+#alinea p { display: inline;}
+#charla {border-bottom: 2px dotted black;} 
