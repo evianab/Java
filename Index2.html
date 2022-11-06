@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style1.css" rel="stylesheet">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
+</head>
+<body>
+    
+
+     <!-- Menu -->    
+     <header>      
+                <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+                  <div class="container">
+                    <a class="navbar-brand" href="#">
+                    
+                      Confs. Bs As</a>
+                    
+
+                    <div class="justify-content-end" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#" target="_blank">La Conferencia</a>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="#" target="_blank">Los Oradores</a>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="#" target="_blank">El Lugar y la Fecha</a>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="#" target="_blank">Convertete en Orador </a>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="#" id="boton-verde" target="_blank">Comprar Tickets</a>
+                        </li>
+                        
+                        </li>
+                      </ul>
+                     
+                    </div>
+                  </div>
+                </nav>
+            
+            </ul>
+        </nav>
+      
+        </header>
+
+        
+<br>
+<!-- Cartas -->
+<div class="cubos">
+<div class="card border-success mb-3" style="max-width: 18rem;" id="cartas">
+    <div class="card-body">
+    <h3 class="card-title">Estudiante</h3>
+    <p class="card-text">Tiene un descuento</p>
+    <br>
+    <p>80%</p>
+    <br>
+    <P>*Presentar Documentación</P>
+  </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 18rem;">
+    <div class="card-body text-success">
+    <h5 class="card-title">Traine</h5>
+    <p class="card-text">Tiene un descuento</p>
+    <br>
+    <p> 50%</p>
+  <br>
+<p>
+  *Presentar Documentación
+</p>  
+</div>
+</div>
+
+              
+                          <div class="card border-warning mb-3" style="max-width: 18rem;">
+                               <div class="card-body">
+                              <h5 class="card-title">Junior</h5>
+                              <p class="card-text">Tiene un descuente</p>
+                              <p>15%</p>
+                            <BR> *Presentar Documentación
+                            </div>
+                          </div>
+              
+            </div>
+          </div>
+        </div>
+          <Br>
+            
+            
+        
+<br>
+          <h6> Venta </h6> <h1><p> Valor del Tickets: $200</p></h1>
+<br>
+
+<!-- Formulario -->
+
+<div class="container" id="formulario"> 
+    <div id="alinea"> </div>
+    <br>
+  
+    <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="nombre">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="apellido">
+    </div>
+    </div>
+
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+      </div>
+      
+
+
+      <div class="categoria container">
+      <div class="row">
+         <div class="col-xl-6" >
+         <p> Cantidad</p>                      
+          <input type="text" class="form-control" placeholder="Cantidad" aria-label="First name" id="cantidad"> 
+         </div>
+      
+         <div class="col-xl-6" > 
+         <P>Categoría </P>
+            <select class="form-select" aria-label="Estudiante" id="cate"> 
+            <option selected>Seleccione</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Trainee</option>
+            <option value="3">Junior</option>
+            <option value="4">Sin Categoría</option>
+          </select>
+        </div>
+      </div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type = "text" class="form-control" id="aPagar" placeholder="Total a Pagar: $">
+        </div>
+    <br>
+<div class="botones">
+<button type="button" class="btn btn-success" id="botonenviar" onclick="nada()">Borrar</button> 
+<button type="button" class="btn btn-success" id="botonenviar" onclick="totalAPagar()">Resumen</button> 
+</div>
+
+</div>
+
+
+
+<br>
+
+
+   
+    </div>
+  </div>
+
+<!-- Menu final -->
+  
+<nav class="navbar navbar-dark navbar-expand-lg" >
+  <div class="container-fluid menu9" id="menu9">
+    
+    <div id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+                
+        <a class="nav-link active" aria-current="page" href="#">Preguntas Frecuentes</a>
+        </li>
+
+        <a class="nav-link active" aria-current="page" href="#">Contáctanos</a>
+        </li>
+
+        <a class="nav-link active" aria-current="page" href="#">Prensa</a>
+        </li>
+
+        <a class="nav-link active" aria-current="page" href="#">Conferencias</a>
+        </li>
+
+        <a class="nav-link active" aria-current="page" href="#">Términos y Condiciones</a>
+        </li>
+
+        <a class="nav-link active" aria-current="page" href="#">Privacidad</a>
+        </li>
+
+
+        <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
+        </li>
+        
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<!--<script src="/js/ventasticket.js">-->
+
+  <script>
+//defino valor de Entrada
+const valorTicket = 200;
+
+
+//defino valor de descuento
+
+var descuentoEstudiantes = 0.2;
+var descuentoTrainee = 0.5;
+var descuentoJunior = 0.85;
+var descuentoNulo = 1
+
+//calculo datos de los imputs
+/*
+let nombre = document.getElementById("nombre");
+let apellido = document.getElementById("apellido");
+let mail = document.getElementById("mail");
+let cantidad = document.getElementByIda("cant");
+let categoria = document.getElementById("tipo");*/
+
+function totalAPagar()
+{
+var cantidadDeEntradas = parseInt(document.getElementById("cantidad").value);
+var subtotal = (cantidadDeEntradas*valorTicket);
+var select = document.getElementById("cate");
+var seleccionCategoria = select.options[select.selectedIndex].value;
+
+var promo = 0;
+
+switch (seleccionCategoria= (parseInt(seleccionCategoria))) 
+{
+    case 1:
+        promo= descuentoEstudiantes
+        break;
+
+    case 2:
+        promo= descuentoTrainee
+        break;
+        
+    case 3:
+        promo= descuentoJunior
+        break;
+        
+    case 4:
+        promo= descuentoNulo
+        break;
+}
+
+var valorTotal = (subtotal*promo);
+
+console.log(valorTotal);
+
+document.getElementById("aPagar").value = valorTotal
+
+}
+
+function nada()
+
+{
+    document.getElementById("nombre").value = "";
+    document.getElementById("exampleFormControlInput1").value = "";
+    document.getElementById("apellido").value = "";
+    document.getElementById("cate").value = "";
+    document.getElementById("cantidad").value = "";
+    document.getElementById("aPagar").value = "";
+    
+}
+
+</script>
+
+</body>
+</html>
